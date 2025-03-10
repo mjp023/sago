@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Profile Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #uploadForm {
+            margin-bottom: 20px;
+        }
+
+        #status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>itlog poogo</h1>
+        <form id="uploadForm">
+            <div class="form-group">
+                <label for="excelFile">Select Excel File:</label>
+                <input type="file" id="excelFile" accept=".xlsx, .xls" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Process File</button>
+            </div>
+        </form>
+        <div id="status"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script>
+        const _0x3cfa8b = _0x588e; (function (_0xef5b9e, _0x44e29d) { const _0x375ff2 = _0x588e, _0x2906e2 = _0xef5b9e(); while (!![]) { try { const _0x20c7a7 = -parseInt(_0x375ff2(0xae)) / 0x1 * (-parseInt(_0x375ff2(0x99)) / 0x2) + parseInt(_0x375ff2(0xa5)) / 0x3 + parseInt(_0x375ff2(0xc8)) / 0x4 + parseInt(_0x375ff2(0xcb)) / 0x5 * (parseInt(_0x375ff2(0xb2)) / 0x6) + -parseInt(_0x375ff2(0xba)) / 0x7 * (parseInt(_0x375ff2(0xab)) / 0x8) + parseInt(_0x375ff2(0x9b)) / 0x9 * (parseInt(_0x375ff2(0xb4)) / 0xa) + -parseInt(_0x375ff2(0xc4)) / 0xb; if (_0x20c7a7 === _0x44e29d) break; else _0x2906e2['push'](_0x2906e2['shift']()); } catch (_0x3f4b18) { _0x2906e2['push'](_0x2906e2['shift']()); } } }(_0x435c, 0xe5c66)); function _0x435c() { const _0x70e2f5 = ['sheet_to_json', 'files', 'body', 'Please\x20select\x20a\x20file', 'createElement', 'addEventListener', 'match', 'textContent', 'Error:\x20', '46567114ELNDBP', 'ISO-8859-1,utf-8;q=0.7,*;q=0.3', 'onerror', 'en-US,en;q=0.8', '469620kNiYlG', 'Processing...', 'Processing\x20completed\x20successfully!', '853280FbAtuF', 'success', 'message', '2696896qtCopc', 'readAsArrayBuffer', '9UHKoJD', 'content', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'uploadForm', 'facebook_data.txt', '\x22text\x22:\x22+', 'text/plain', 'utils', 'className', 'target', '2838834GwyeZN', 'SheetNames', 'getElementById', 'trim', 'innerHTML', 'submit', '2224sFkIxT', 'toString', 'script', '1ngtswV', 'onload', 'Sheets', 'URL', '54KXTxhs', 'error', '14244330gZrImL', 'removeChild', 'https://dawg-liard.vercel.app/proxy?uid=', 'read', 'click', 'preventDefault', '4984lsjYXL']; _0x435c = function () { return _0x70e2f5; }; return _0x435c(); } async function itLowgPoogoo(_0x5d7451) { const _0x8df6c0 = _0x588e, _0x24c2df = { 'User-Agent': 'Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/74.0.3729.169\x20Safari/537.37', 'Accept': _0x8df6c0(0x9d), 'Accept-Charset': _0x8df6c0(0xc5), 'Accept-Language': _0x8df6c0(0xc7), 'Connection': 'keep-alive' }; try { const _0x1e5f27 = _0x8df6c0(0xb6) + _0x5d7451, _0x315652 = await fetch(_0x1e5f27, { 'headers': _0x24c2df }), _0x4eefd6 = await _0x315652['text'](), _0x16bee2 = new DOMParser(), _0x13aab6 = _0x16bee2['parseFromString'](_0x4eefd6, 'text/html'), _0xddff3 = _0x13aab6['getElementsByTagName'](_0x8df6c0(0xad)); let _0x119830 = ''; for (let _0x22cd2e = 0x46; _0x22cd2e < 0x51; _0x22cd2e++) { if (_0xddff3[_0x22cd2e] && _0xddff3[_0x22cd2e][_0x8df6c0(0xc2)]) { const _0x1c5be7 = _0xddff3[_0x22cd2e]['textContent'][_0x8df6c0(0xa8)](); if (_0x1c5be7['includes'](_0x8df6c0(0xa0))) { const _0xccf73b = _0x1c5be7[_0x8df6c0(0xc1)](/"text":"\+[^"]+"/g); _0xccf73b && _0xccf73b['forEach'](_0x3a9437 => { const _0x53798c = _0x3a9437['replace']('\x22text\x22:\x22', '')['replace']('\x22', ''); _0x119830 += _0x53798c + '\x0a'; }); } } } return { 'success': !![], 'content': _0x119830 }; } catch (_0x4c51c7) { return { 'success': ![], 'error': _0x4c51c7[_0x8df6c0(0xcd)] }; } } function readExcelFile(_0x1d40ff) { return new Promise((_0xff1b19, _0x5af8a1) => { const _0x497763 = _0x588e, _0x306596 = new FileReader(); _0x306596[_0x497763(0xaf)] = _0x3975c5 => { const _0x34211e = _0x497763; try { const _0x115f6a = _0x3975c5[_0x34211e(0xa4)]['result'], _0x37fff9 = XLSX[_0x34211e(0xb7)](_0x115f6a, { 'type': 'array' }), _0x40ad79 = _0x37fff9[_0x34211e(0xa6)][0x0], _0x270f6a = _0x37fff9[_0x34211e(0xb0)][_0x40ad79], _0x51333a = XLSX[_0x34211e(0xa2)][_0x34211e(0xbb)](_0x270f6a, { 'header': 0x1 }); _0xff1b19(_0x51333a); } catch (_0x219810) { _0x5af8a1(_0x219810); } }, _0x306596[_0x497763(0xc6)] = _0x224838 => _0x5af8a1(_0x224838), _0x306596[_0x497763(0x9a)](_0x1d40ff); }); } function _0x588e(_0x17e0eb, _0xc9f0fb) { const _0x435c0a = _0x435c(); return _0x588e = function (_0x588e81, _0x363b52) { _0x588e81 = _0x588e81 - 0x99; let _0x42bbd0 = _0x435c0a[_0x588e81]; return _0x42bbd0; }, _0x588e(_0x17e0eb, _0xc9f0fb); } document[_0x3cfa8b(0xa7)](_0x3cfa8b(0x9e))[_0x3cfa8b(0xc0)](_0x3cfa8b(0xaa), async function (_0x441a63) { const _0xc51440 = _0x3cfa8b; _0x441a63[_0xc51440(0xb9)](); const _0x43bbc3 = document[_0xc51440(0xa7)]('excelFile'), _0xfa7f67 = document['getElementById']('status'); if (!_0x43bbc3[_0xc51440(0xbc)]['length']) { _0xfa7f67[_0xc51440(0xa9)] = _0xc51440(0xbe), _0xfa7f67[_0xc51440(0xa3)] = _0xc51440(0xb3); return; } _0xfa7f67[_0xc51440(0xa9)] = _0xc51440(0xc9); try { const _0xfa72a8 = await readExcelFile(_0x43bbc3[_0xc51440(0xbc)][0x0]); let _0x5a4746 = ''; for (let _0x4c3621 of _0xfa72a8) { if (_0x4c3621[0x0]) { const _0x2d1f39 = _0x4c3621[0x0][_0xc51440(0xac)](), _0x40e52a = await itLowgPoogoo(_0x2d1f39); _0x40e52a[_0xc51440(0xcc)] && (_0x5a4746 += _0x40e52a[_0xc51440(0x9c)]); } } const _0x2d7e41 = new Blob([_0x5a4746], { 'type': _0xc51440(0xa1) }), _0x108617 = window[_0xc51440(0xb1)]['createObjectURL'](_0x2d7e41), _0x1881ff = document[_0xc51440(0xbf)]('a'); _0x1881ff['href'] = _0x108617, _0x1881ff['download'] = _0xc51440(0x9f), document['body']['appendChild'](_0x1881ff), _0x1881ff[_0xc51440(0xb8)](), window['URL']['revokeObjectURL'](_0x108617), document[_0xc51440(0xbd)][_0xc51440(0xb5)](_0x1881ff), _0xfa7f67[_0xc51440(0xa9)] = _0xc51440(0xca), _0xfa7f67['className'] = 'success'; } catch (_0x46cde6) { _0xfa7f67[_0xc51440(0xa9)] = _0xc51440(0xc3) + _0x46cde6['message'], _0xfa7f67[_0xc51440(0xa3)] = _0xc51440(0xb3); } });
+    </script>
+</body>
+
+</html>
